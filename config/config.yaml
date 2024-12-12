@@ -1,0 +1,27 @@
+# config/config.yaml
+defaults:
+  - model: bert  # Default model. Change to 'xml' to use XLM-R
+
+random_seeds:
+  - 42
+  - 123
+  - 999
+
+training:
+  learning_rate: 2e-5
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 16
+  num_train_epochs: 10
+  weight_decay: 0.01
+  logging_steps: 10
+  warmup_steps: 500
+  max_grad_norm: 1.0
+  output_dir: ./results
+  cosine_schedule: true
+
+data:
+  train_file: ../data/train.csv
+  test_file: ../data/test.csv
+  validation_file: ../data/validation.csv
+
+device: "cuda"  # Options: "cuda", "cpu"
