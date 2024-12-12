@@ -1,6 +1,6 @@
 Fine-tune `xlm-roberta-base` and `bert-base-german-cased` for classifying articles into four categories: `kein Frame`, `Fortschritt`, `Risiko`, and `gemischt`.
 
- Training, Class Statistics
+# Training, Class Statistics
 
 | Class | Train | Validation | Test |
 |-------|-------|------------|------|
@@ -9,7 +9,7 @@ Fine-tune `xlm-roberta-base` and `bert-base-german-cased` for classifying articl
 | 3     | 61    | 4          | 18   |
 | 33    | 414   | 32         | 49   |
 
- Data Distribution
+# Data Distribution
 
 | Class        | Percentage |
 |--------------|------------|
@@ -19,3 +19,7 @@ Fine-tune `xlm-roberta-base` and `bert-base-german-cased` for classifying articl
 | 3 (gemischt)    | 6.41%     |
 
 
+## Visual Results
+
+<img src="uar.png" alt="UAR Plot" width="900">
+<img src="confusion.png" alt="Confusion Matrix" width="900">
