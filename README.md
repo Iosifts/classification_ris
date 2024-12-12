@@ -1,4 +1,6 @@
-## Training, Class Statistics
+## Fine-tune `xlm-roberta-base` and `bert-base-german-cased` for classifying articles into four categories: `kein Frame`, `Fortschritt`, `Risiko`, and `gemischt`.
+
+### Training, Class Statistics
 
 | Class | Train | Validation | Test |
 |-------|-------|------------|------|
@@ -7,7 +9,7 @@
 | 3     | 61    | 4          | 18   |
 | 33    | 414   | 32         | 49   |
 
-## Data Distribution
+### Data Distribution
 
 | Class        | Percentage |
 |--------------|------------|
